@@ -1,0 +1,27 @@
+.container {
+    background-color: rgb(209, 209, 209);
+    width: 450px;
+    margin: 0 auto;
+   
+}
+
+fieldset {
+    padding: 35px; ;
+}
+
+input[type=text], [type=email], [type=password] {
+    float: inline-end;
+}
+
+select  {
+    margin-left: 126px;
+}
+
+input[type=number] {
+    margin-left: 140px;
+}
+
+textarea {
+    margin-left: 70px;
+}
+
