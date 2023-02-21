@@ -101,6 +101,7 @@ main {
 .list-item label {
     position: relative;
     padding-left: 25px;
+    cursor: pointer;
 }
 
 .list-item input:checked + label::after {
