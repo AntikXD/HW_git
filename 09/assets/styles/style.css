@@ -183,6 +183,10 @@ h3 {
     position: absolute; 
 }
 
+.section2-button:hover {
+    cursor: pointer;
+}
+
 .section2-button a {
     text-decoration: none;
     margin-left: 10px;
