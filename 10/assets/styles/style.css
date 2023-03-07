@@ -58,11 +58,6 @@ h2 {
   background-color: rgba(224, 224, 224, 0.5);
 }
 
-.section1__grid .grid-item:nth-of-type(1) {
-    background-image: url("/10/assets/images/image-1.png");
-    border-radius: 20px;
-}
-
 .grid-item .grid-item__text {
     display: flex;
     justify-content: space-between;
@@ -86,30 +81,35 @@ h2 {
     padding: 20px 20px 0;
 }
 
+.section1__grid .grid-item:nth-of-type(1) {
+    background-image: url("assets/images/image-1.png");
+    border-radius: 20px;
+}
+
 .section1__grid .grid-item:nth-of-type(2) {
-    background-image: url("/10/assets/images/image-2.png");
+    background-image: url("assets/images/image-2.png");
     grid-column: 2 / span 2;
     border-radius: 20px;
 }
 
 .section1__grid .grid-item:nth-of-type(3) {
-    background-image: url("/10/assets/images/image-3.jpg");
+    background-image: url("assets/images/image-3.jpg");
     grid-column: 1 / span 2;
     border-radius: 20px;
 }
 
 .section1__grid .grid-item:nth-of-type(4) {
-    background-image: url("/10/assets/images/image-4.jpg");
+    background-image: url("assets/images/image-4.jpg");
     border-radius: 20px;
 }
 
 .section1__grid .grid-item:nth-of-type(5) {
-    background-image: url("/10/assets/images/image-5.jpg");
+    background-image: url("assets/images/image-5.jpg");
     border-radius: 20px;
 }
 
 .section1__grid .grid-item:nth-of-type(6) {
-    background-image: url("/10/assets/images/image-6.jpg");
+    background-image: url("assets/images/image-6.jpg");
     grid-column: 2 / span 2;
     border-radius: 20px;
 }
@@ -141,25 +141,25 @@ h2 {
 }
 
 .section2__grid .grid-item:nth-of-type(1) {
-    background-image: url("/10/assets/images/image-11.jpg");
+    background-image: url("assets/images/image-11.jpg");
     border-radius: 20px;
 }
 
 .section2__grid .grid-item:nth-of-type(2) {
-    background-image: url("/10/assets/images/image-12.jpg");
+    background-image: url("assets/images/image-12.jpg");
     border-radius: 20px;
     grid-column: 2 / span 2;
 }
 
 .section2__grid .grid-item:nth-of-type(3) {
-    background-image: url("/10/assets/images/image-13.jpg");
+    background-image: url("assets/images/image-13.jpg");
     border-radius: 20px;
     grid-column: 1 / span 2;
     grid-row: 2 / 4;
 }
 
 .section2__grid .grid-item:nth-of-type(4) {
-    background-image: url("/10/assets/images/image-14.jpg");
+    background-image: url("assets/images/image-14.jpg");
     border-radius: 20px;
     grid-row: 2 / 4;
 }
@@ -171,7 +171,7 @@ h2 {
 }
 
 .section2__grid .grid-item:nth-of-type(6) {
-    background-image: url("/10/assets/images/image-16.jpg");
+    background-image: url("assets/images/image-16.jpg");
     border-radius: 20px;
 }
 
@@ -189,59 +189,59 @@ h2 {
 }
 
 .section3__grid .grid-item:nth-of-type(1) {
-    background-image: url("/10/assets/images/image-111.jpg");
+    background-image: url("assets/images/image-111.jpg");
     border-radius: 20px;
 }
 
 .section3__grid .grid-item:nth-of-type(2) {
-    background-image: url("/10/assets/images/image-112.jpg");
+    background-image: url("assets/images/image-112.jpg");
     border-radius: 20px;
     grid-row: 1 / 3;
     grid-column: 2;
 }
 
 .section3__grid .grid-item:nth-of-type(3) {
-    background-image: url("/10/assets/images/image-113.jpg");
+    background-image: url("assets/images/image-113.jpg");
     border-radius: 20px;
 }
 
 .section3__grid .grid-item:nth-of-type(4) {
-    background-image: url("/10/assets/images/image-114.jpg");
+    background-image: url("assets/images/image-114.jpg");
     border-radius: 20px;
 }
 
 .section3__grid .grid-item:nth-of-type(5) {
-    background-image: url("/10/assets/images/image-115.jpg");
+    background-image: url("assets/images/image-115.jpg");
     border-radius: 20px;
     grid-row: 2 / 4;
     grid-column: 3;
 }
 
 .section3__grid .grid-item:nth-of-type(6) {
-    background-image: url("/10/assets/images/image-117.jpg");
+    background-image: url("assets/images/image-117.jpg");
     border-radius: 20px;
     grid-row: 3 / 5;
 }
 
 .section3__grid .grid-item:nth-of-type(7) {
-    background-image: url("/10/assets/images/image-116.jpg");
+    background-image: url("assets/images/image-116.jpg");
     border-radius: 20px;
 }
 
 .section3__grid .grid-item:nth-of-type(8) {
-    background-image: url("/10/assets/images/image-118.jpg");
+    background-image: url("assets/images/image-118.jpg");
     border-radius: 20px;
     grid-column: 2 / span 2;
 }
 
 .section3__grid .grid-item:nth-of-type(9) {
-    background-image: url("/10/assets/images/image-119.jpg");
+    background-image: url("assets/images/image-119.jpg");
     border-radius: 20px;
     grid-column: 1 / span 2;
 }
 
 .section3__grid .grid-item:nth-of-type(10) {
-    background-image: url("/10/assets/images/image-120.jpg");
+    background-image: url("assets/images/image-120.jpg");
     border-radius: 20px;
 }
 
