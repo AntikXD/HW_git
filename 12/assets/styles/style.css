@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
+
+.nav-menu__lang a{
+    text-decoration: none;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    height: 18px;
+    margin-right: 55px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header start */
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+    
+.nav-menu__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 58px;
+}
+
+.nav-menu__text {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+.nav-menu__text:nth-last-child(1)::before {
+    content: '/';
+    padding: 0 10px;
+}
+
+/* header end */
+/* main start */
+
+#main {
+    padding: 80px 0 20px;
+    background-image: url(../img/bg-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 160px;
+    background-attachment: fixed;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.side-bar {
+    max-width: 385px;
+    padding: 10px;
+    position: sticky;
+    top: 80px;
+    height: max-content;
+    width: 32%;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+.main-content {
+    width: 68%;
+}
+
+.section::before {
+    content: '';
+    border-top: 8px solid #000;
+    width: 100px;
+    position: absolute;
+}
+
+.side-list li {
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    padding: 30px 0 32px;
+}
+
+h2 .chapter-above {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    margin-left: 10px;
+    position: absolute;
+    text-transform: none;
+}
+
+.section-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 26px;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: 'pt_sans' sans-serif;
+}
+
+.section__bg-gray {
+    background-color: #dadada;
+}
+
+
+.title h2:before {
+    content: '';
+    border-top: 8px solid #000;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.title h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    padding: 0 0 40px;
+}
+
+.grid__body {
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.grid__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0;
+    gap: 30px;
+}
+
+#whos-using__main {
+    padding: 80px 0 20px;
+}
+
+.grid__item {
+    background-color: transparent;
+    width: 270px;
+    height: 180px;
+}
+
+.grid-item__inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.grid__item:hover .grid-item__inner{
+    transform: rotateX(180deg);
+}
+
+.grid-item__flip-front {
+    background-color: #E6E6E6;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.grid-item__flip-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(180deg);
+    position: absolute;
+    top: 0;
+}
+
+.grid-item__flip-back, .grid-item__flip-front {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
