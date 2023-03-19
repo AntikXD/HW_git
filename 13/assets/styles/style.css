@@ -1,0 +1,289 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.section__forms {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1170px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.--flex {
+    display: flex;
+}
+
+.section__forms-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__forms-form1, .section__forms-form2 {
+    background-color: #fff;
+    padding: 30px 35px;
+    gap: 15px;
+    border-radius: 6px;
+    width: 49%;
+}
+
+.section__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.form__inputs-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input, .form__select {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin-bottom: 22px;
+}
+
+.form__input input, .form__select select {
+    padding: 8px 10px;
+    height: 38px;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    transition: all 0.25s;
+    margin-top: 10px;
+}
+
+.--email {
+    width: 100%;
+}
+
+.small-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #969696;
+    margin-top: 5px;
+}
+
+.radio__inputs {
+    display: flex;
+}
+
+.radio__input {
+    position: relative;
+    padding-left: 28px;
+}
+
+.--gender {
+   max-width: 100%; 
+}
+
+.radio__input label, .checkmark{
+    cursor: pointer;
+    display: flex;
+}
+
+.radio__input:nth-of-type(2){
+    margin-left: 20px;
+}
+
+.radio__input input {
+    position: absolute;
+    visibility: hidden;
+}
+
+/* checkmark start */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+}
+
+.radio__input input:focus ~ .checkmark {
+    border: 1px solid #007bff;
+}
+
+.radio__input:hover input ~ .checkmark {
+    background-color: #e4e4e4;
+}
+  
+.radio__input input:checked ~ .checkmark {
+    background-color: #007bff;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.radio__input input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.radio__input .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+/* checkmark end */
+
+.form__button {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    background: #007bff;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px 50px;
+    color: #ffffff;
+    transition: all 0.25s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.--width {
+    width: 100%;
+}
+
+.form__button:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.terms {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.form-selector {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #969696;
+}
+
+.form-selector:after {
+    content: "";
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    right: 10px;
+    bottom: 10px;
+    pointer-events: none;
+}
+
+.terms a {
+    font-family: "Roboto";
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.form__log-in {
+    display: flex;
+    justify-content: center;
+}
+
+.form__log-in p {
+    margin-right: 10px;
+}
+
+.form__log-in-link {
+    font-family: "Roboto";
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color: #007bff;
+}
+
+.trash__button {
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    margin-top: 15px;
+    background-color: #fff;
+    background-image: url(../img/Trash.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.trash__button:hover {
+    background-color: #e2e2e2;
+}
+
+.form__photo {
+    margin: 0 20px 0 3px;
+}
+
+.form__upload {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    padding-top: 15px;
+}
+
+.form__upload label {
+    display: block;
+    position: relative;
+    height: 30px;
+    max-width: 138px;
+    padding: 8px 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    transition: all 0.25s;
+    outline: none;
+}
+
+.form__upload input {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+
+.photo-icon {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+}
+
+.form__field {
+    margin-bottom: 20px;
+}
