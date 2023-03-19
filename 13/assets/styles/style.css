@@ -269,6 +269,7 @@ body {
     border-radius: 6px;
     transition: all 0.25s;
     outline: none;
+    cursor: pointer;
 }
 
 .form__upload input {
