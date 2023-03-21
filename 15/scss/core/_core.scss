@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-gold: #FFCC00;
+$color-main: #666666;
+$color-title: #333333;
+$color-sub: #898F8F;
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-main;
+}
+  
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}

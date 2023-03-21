@@ -1,0 +1,15 @@
+.button {
+    color: $color-main;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 14px;
+    padding: 5px 10px;
+    border: 1px solid $color-gold;
+    transition: all 0.25s;
+    display: inline-block;
+    margin-left: 140px;
+    &:hover {
+      background-color: $color-gold;
+      color: white;
+}
+}
