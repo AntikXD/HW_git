@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-main: #565656;
+  --color-title: #000000;
+  --color-footer-br-gray: #F4F4F4;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: var(--color-main);
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Red Hat Display";
+}
+
+.container {
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 5px;
+  }
+}/*# sourceMappingURL=index.css.map */
