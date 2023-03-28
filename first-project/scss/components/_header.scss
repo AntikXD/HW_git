@@ -1,0 +1,144 @@
+.header {
+    background-image: url(./../assets/images/HeaderBackground.jpg);
+    background-size: cover;
+
+    &-start {
+        padding: 295px 0 121px 0;
+    }
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    fill:white;
+
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-family: "Josefin Sans";
+        font-weight: 700;
+        font-style: normal;
+        font-size: $fs-48;
+        line-height: 52px;
+        color: $c-white;
+        margin-bottom: 9px;
+    }
+
+    &__subtitle {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.3em;
+        color: $c-white;
+        margin-bottom: 45px;
+    }
+
+    &__search {
+        max-width: 647px;
+        height: 60px;
+        position: relative;
+        margin-bottom: 212px;
+      
+
+    &-input {
+        width: 611px;
+        padding: 20px 0;
+        color: $c-grey;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        padding-left: 34px;
+    }
+
+    &-button {
+        display: flex;
+        padding: 16px 24px;
+        position: absolute;
+        top: 6px;
+        right: 4px;
+        font-size: $fs-14;
+    }
+    }
+
+    &__scroll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &-text {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.2em;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+        }
+
+        &-img {
+            width: 14px;
+            height: 16px;
+        }
+    }
+}
+
+.header-nav {
+    background-color: $c-accent;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+
+        &-logo {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        &-logo a{
+            color: #FFFFFF;
+        }
+
+        &-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 32px 0;
+            margin-right: 8px;
+
+            &__item a{
+                font-family: 'Aleo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.1em;
+                color: #FFFFFF;
+            }
+
+        }
+
+    }
+
+}

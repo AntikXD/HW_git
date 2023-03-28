@@ -1,0 +1,18 @@
+.button {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: $c-white;
+    background: $c-accent;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $c-dark-grey;
+        border: 1px solid $c-accent;
+        transition: 0.4s;
+    }
+
+}
